@@ -1,11 +1,8 @@
 import React from 'react';
-import {
-  QueryClient,
-  QueryClientProvider
-} from 'react-query';
-import List from './List';
+import {QueryClient, QueryClientProvider} from 'react-query';
+import List from './list';
 
-const queryClient = new QueryClient()
+const queryClient = new QueryClient();
 
 const App = () => {
   return (
